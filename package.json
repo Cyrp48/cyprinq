@@ -19,6 +19,6 @@
   "dependencies": {
     "chart.js": "^4.4.2",
     "hanrolka01": "1.0.1",
-    "minti_fulkerson": "1.0.0"
+    "minti_fulkerson": "^1.0.0"
   }
 }
