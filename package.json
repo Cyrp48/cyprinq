@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Cyrp48/cyprinq.git"
+    "url": "https://github.com/Cyrp48/cyprinq.git"
   },
   "author": "Copyright [2024] [cypr]",
   "license": "ISC",
@@ -17,8 +17,8 @@
   },
   "homepage": "https://github.com/Cyrp48/cyprinq#readme",
   "dependencies": {
-    "chart.js": "^4.4.2",
+    "chart.js": "4.4.2",
     "hanrolka01": "1.0.1",
-    "minti_fulkerson": "^1.0.0"
+    "minti_fulkerson": "1.0.0"
   }
 }
