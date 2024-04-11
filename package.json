@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/Cyrp48/cyprinq/issues"
   },
-  "homepage": "https://github.com/Cyrp48/cyprinq#readme",
+  "homepage": "https://github.com/Cyrp48/cyprinq",
   "dependencies": {
     "chart.js": "4.4.2",
     "hanrolka01": "1.0.1",
