@@ -1,6 +1,6 @@
 {
   "name": "cyprinq",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Visualization of statistic peaks and valleys TE ranks",
   "main": "index.js",
   "scripts": {
@@ -19,6 +19,6 @@
   "dependencies": {
     "chart.js": "^4.4.2",
     "minti_fulkerson": "0.1.4",
-    "hanrolka01": "1.0.0"
+    "hanrolka01": "1.0.2"
   }
 }
