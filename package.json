@@ -18,8 +18,7 @@
   "homepage": "https://github.com/Cyrp48/cyprinq#readme",
   "dependencies": {
     "chart.js": "^4.4.2",
-    "minti_fulkerson": "0.1.4",
-    "hanrolka01": "1.0.1"
-  },
-  "devDependencies": {}
+    "hanrolka01": "1.0.1",
+    "minti_fulkerson": "1.0.0"
+  }
 }
