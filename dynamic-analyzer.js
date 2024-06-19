@@ -25,7 +25,24 @@ const configuration = {
     }]
   },
   options: {
-    // дополнительные настройки
+    scales: {
+      y: {
+        beginAtZero: true, // начинать отсчет от нуля
+        ticks: {
+          stepSize: 5, // шаг между метками на оси Y
+          font: {
+            size: 14 // размер шрифта меток
+          }
+        }
+      },
+      x: {
+        ticks: {
+          font: {
+            size: 14 // размер шрифта меток
+          }
+        }
+      }
+    }
   }
 };
 
@@ -34,6 +51,7 @@ canvasRenderService.renderToBuffer(configuration)
   .then(image => {
     // Сохраняем изображение графика
     fs.writeFileSync('chart.png', image);
+    console.log('График успешно сохранен в файл chart.png');
   })
   .catch(error => {
     console.error('Ошибка при создании графика:', error);
