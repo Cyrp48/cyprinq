@@ -1,6 +1,6 @@
 {
   "name": "cyprinq",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Visualization of statistic peaks and valleys TE ranks",
   "main": "index.js",
   "scripts": {
