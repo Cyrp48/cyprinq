@@ -56,3 +56,48 @@ canvasRenderService.renderToBuffer(configuration)
   .catch(error => {
     console.error('Ошибка при создании графика:', error);
   });
+const createChart = async (type, data, labels, outputFilePath) => {
+  const configuration = {
+    type: type,
+    data: {
+      labels: labels,
+      datasets: [{
+        label: 'Пример графика',
+        data: data,
+        backgroundColor: 'rgba(255, 99, 132, 0.2)',
+        borderColor: 'rgba(255, 99, 132, 1)',
+        borderWidth: 1
+      }]
+    },
+    options: {
+      scales: {
+        y: {
+          beginAtZero: true,
+          ticks: {
+            stepSize: 5,
+            font: {
+              size: 14
+            }
+          }
+        },
+        x: {
+          ticks: {
+            font: {
+              size: 14
+            }
+          }
+        }
+      }
+    }
+  };
+
+  const canvasRenderService = new CanvasRenderService(800, 400);
+  try {
+    const image = await canvasRenderService.renderToBuffer(configuration);
+    fs.writeFileSync(outputFilePath, image);
+    console.log(`График успешно сохранен в файл ${outputFilePath}`);
+  } catch (error) {
+    console.error('Ошибка при создании графика:', error);
+  }
+};
+
