@@ -19,9 +19,20 @@
   "dependencies": {
     "chart.js": "4.4.2",
     "hanrolka01": "1.0.1",
-    "minti_fulkerson": "1.0.0"
+    "minti_fulkerson": "1.0.0",
+    "shibal": "^1.0.0"
   },
   "keywords": [
-    "cyprinq"
+    "cyprinq",
+    "package-manager",
+    "string-manipulation",
+    "utility-functions",
+    "string-operations",
+    "text-processing",
+    "text-manipulation",
+    "string-helpers",
+    "text-utilities",
+    "text-helpers",
+    "string-processing"
   ]
 }
